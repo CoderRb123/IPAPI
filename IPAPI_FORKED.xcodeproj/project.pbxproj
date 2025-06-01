@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE576B271E0C99E5009D4C46 /* IPAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE454011E0BE8DB00D8E707 /* IPAPI.framework */; };
+		FE576B271E0C99E5009D4C46 /* IPAPI_FORKED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE454011E0BE8DB00D8E707 /* IPAPI_FORKED.framework */; };
 		FE97617A1E8FBB57006F1F9D /* IPAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE97616D1E8FBB52006F1F9D /* IPAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE97617E1E8FBB60006F1F9D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97616E1E8FBB52006F1F9D /* Service.swift */; };
 		FE9761871E8FBBE3006F1F9D /* IPAPI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9761781E8FBB52006F1F9D /* IPAPI_Tests.swift */; };
@@ -24,8 +24,8 @@
 		FEC7F9B524C1864E0041307F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC7F9B424C1864E0041307F /* Assets.xcassets */; };
 		FEC7F9B824C1864E0041307F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC7F9B724C1864E0041307F /* Preview Assets.xcassets */; };
 		FEC7F9BB24C1864E0041307F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC7F9B924C1864E0041307F /* LaunchScreen.storyboard */; };
-		FEC7F9C224C187110041307F /* IPAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE454011E0BE8DB00D8E707 /* IPAPI.framework */; };
-		FEDFDB431FA39F7A00607D1A /* IPAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE454011E0BE8DB00D8E707 /* IPAPI.framework */; };
+		FEC7F9C224C187110041307F /* IPAPI_FORKED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE454011E0BE8DB00D8E707 /* IPAPI_FORKED.framework */; };
+		FEDFDB431FA39F7A00607D1A /* IPAPI_FORKED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE454011E0BE8DB00D8E707 /* IPAPI_FORKED.framework */; };
 		FEDFDB491FA39F8700607D1A /* IPAPI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9761781E8FBB52006F1F9D /* IPAPI_Tests.swift */; };
 		FEDFDB501FA39FB700607D1A /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDFDB2F1FA39F0E00607D1A /* OHHTTPStubs.framework */; };
 		FEDFDB531FA3A0EA00607D1A /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDFDB2B1FA39F0E00607D1A /* OHHTTPStubs.framework */; };
@@ -133,7 +133,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FE576B221E0C99E5009D4C46 /* IPAPI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IPAPI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE576B221E0C99E5009D4C46 /* IPAPI_FORKED Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IPAPI_FORKED Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7C0C9B1E0CB16D00620172 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FE7C0C9C1E0CB16D00620172 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FE8BFBE5214BB255005205DB /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
@@ -160,9 +160,9 @@
 		FEC7F9BC24C1864E0041307F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEDFDB1A1FA39DA800607D1A /* Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		FEDFDB1B1FA39F0E00607D1A /* OHHTTPStubs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OHHTTPStubs.xcodeproj; path = Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/OHHTTPStubs.xcodeproj; sourceTree = SOURCE_ROOT; };
-		FEDFDB3E1FA39F7A00607D1A /* IPAPI macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IPAPI macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEE454011E0BE8DB00D8E707 /* IPAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IPAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEE4540C1E0BE96600D8E707 /* IPAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = IPAPI.podspec; sourceTree = "<group>"; };
+		FEDFDB3E1FA39F7A00607D1A /* IPAPI_FORKED macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IPAPI_FORKED macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE454011E0BE8DB00D8E707 /* IPAPI_FORKED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IPAPI_FORKED.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE4540C1E0BE96600D8E707 /* IPAPI_FORKED.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = IPAPI_FORKED.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDFDB531FA3A0EA00607D1A /* OHHTTPStubs.framework in Frameworks */,
-				FE576B271E0C99E5009D4C46 /* IPAPI.framework in Frameworks */,
+				FE576B271E0C99E5009D4C46 /* IPAPI_FORKED.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC7F9C224C187110041307F /* IPAPI.framework in Frameworks */,
+				FEC7F9C224C187110041307F /* IPAPI_FORKED.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDFDB501FA39FB700607D1A /* OHHTTPStubs.framework in Frameworks */,
-				FEDFDB431FA39F7A00607D1A /* IPAPI.framework in Frameworks */,
+				FEDFDB431FA39F7A00607D1A /* IPAPI_FORKED.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +286,7 @@
 			children = (
 				FE8BFBE5214BB255005205DB /* .travis.yml */,
 				FE8BFBE6214BB25B005205DB /* .swift-version */,
-				FEE4540C1E0BE96600D8E707 /* IPAPI.podspec */,
+				FEE4540C1E0BE96600D8E707 /* IPAPI_FORKED.podspec */,
 				FE9761A21E8FBD45006F1F9D /* Package.swift */,
 				FE7C0C9B1E0CB16D00620172 /* LICENSE */,
 				FE7C0C9C1E0CB16D00620172 /* README.md */,
@@ -301,9 +301,9 @@
 		FEE454021E0BE8DB00D8E707 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEE454011E0BE8DB00D8E707 /* IPAPI.framework */,
-				FE576B221E0C99E5009D4C46 /* IPAPI Tests.xctest */,
-				FEDFDB3E1FA39F7A00607D1A /* IPAPI macOS Tests.xctest */,
+				FEE454011E0BE8DB00D8E707 /* IPAPI_FORKED.framework */,
+				FE576B221E0C99E5009D4C46 /* IPAPI_FORKED Tests.xctest */,
+				FEDFDB3E1FA39F7A00607D1A /* IPAPI_FORKED macOS Tests.xctest */,
 				FEC7F9AC24C1864C0041307F /* Demo iOS.app */,
 			);
 			name = Products;
@@ -323,9 +323,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FE576B211E0C99E5009D4C46 /* IPAPI iOS Tests */ = {
+		FE576B211E0C99E5009D4C46 /* IPAPI_FORKED iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE576B2A1E0C99E5009D4C46 /* Build configuration list for PBXNativeTarget "IPAPI iOS Tests" */;
+			buildConfigurationList = FE576B2A1E0C99E5009D4C46 /* Build configuration list for PBXNativeTarget "IPAPI_FORKED iOS Tests" */;
 			buildPhases = (
 				FE576B1E1E0C99E5009D4C46 /* Sources */,
 				FE576B1F1E0C99E5009D4C46 /* Frameworks */,
@@ -337,9 +337,9 @@
 				FEDFDB521FA3A0E400607D1A /* PBXTargetDependency */,
 				FE576B291E0C99E5009D4C46 /* PBXTargetDependency */,
 			);
-			name = "IPAPI iOS Tests";
+			name = "IPAPI_FORKED iOS Tests";
 			productName = "IPAPI iOS Tests";
-			productReference = FE576B221E0C99E5009D4C46 /* IPAPI Tests.xctest */;
+			productReference = FE576B221E0C99E5009D4C46 /* IPAPI_FORKED Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		FEC7F9AB24C1864C0041307F /* Demo iOS */ = {
@@ -360,9 +360,9 @@
 			productReference = FEC7F9AC24C1864C0041307F /* Demo iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FEDFDB3D1FA39F7A00607D1A /* IPAPI macOS Tests */ = {
+		FEDFDB3D1FA39F7A00607D1A /* IPAPI_FORKED macOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEDFDB461FA39F7A00607D1A /* Build configuration list for PBXNativeTarget "IPAPI macOS Tests" */;
+			buildConfigurationList = FEDFDB461FA39F7A00607D1A /* Build configuration list for PBXNativeTarget "IPAPI_FORKED macOS Tests" */;
 			buildPhases = (
 				FEDFDB3A1FA39F7A00607D1A /* Sources */,
 				FEDFDB3B1FA39F7A00607D1A /* Frameworks */,
@@ -374,14 +374,14 @@
 				FEDFDB4F1FA39FB400607D1A /* PBXTargetDependency */,
 				FEDFDB451FA39F7A00607D1A /* PBXTargetDependency */,
 			);
-			name = "IPAPI macOS Tests";
+			name = "IPAPI_FORKED macOS Tests";
 			productName = "IPAPI macOS Tests";
-			productReference = FEDFDB3E1FA39F7A00607D1A /* IPAPI macOS Tests.xctest */;
+			productReference = FEDFDB3E1FA39F7A00607D1A /* IPAPI_FORKED macOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FEE454001E0BE8DB00D8E707 /* IPAPI */ = {
+		FEE454001E0BE8DB00D8E707 /* IPAPI_FORKED */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEE454091E0BE8DB00D8E707 /* Build configuration list for PBXNativeTarget "IPAPI" */;
+			buildConfigurationList = FEE454091E0BE8DB00D8E707 /* Build configuration list for PBXNativeTarget "IPAPI_FORKED" */;
 			buildPhases = (
 				FEE453FC1E0BE8DB00D8E707 /* Sources */,
 				FEE453FD1E0BE8DB00D8E707 /* Frameworks */,
@@ -392,9 +392,9 @@
 			);
 			dependencies = (
 			);
-			name = IPAPI;
+			name = IPAPI_FORKED;
 			productName = IPAPI;
-			productReference = FEE454011E0BE8DB00D8E707 /* IPAPI.framework */;
+			productReference = FEE454011E0BE8DB00D8E707 /* IPAPI_FORKED.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -427,7 +427,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FEE453FB1E0BE8DB00D8E707 /* Build configuration list for PBXProject "IPAPI" */;
+			buildConfigurationList = FEE453FB1E0BE8DB00D8E707 /* Build configuration list for PBXProject "IPAPI_FORKED" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -446,9 +446,9 @@
 			);
 			projectRoot = "";
 			targets = (
-				FEE454001E0BE8DB00D8E707 /* IPAPI */,
-				FE576B211E0C99E5009D4C46 /* IPAPI iOS Tests */,
-				FEDFDB3D1FA39F7A00607D1A /* IPAPI macOS Tests */,
+				FEE454001E0BE8DB00D8E707 /* IPAPI_FORKED */,
+				FE576B211E0C99E5009D4C46 /* IPAPI_FORKED iOS Tests */,
+				FEDFDB3D1FA39F7A00607D1A /* IPAPI_FORKED macOS Tests */,
 				FEC7F9AB24C1864C0041307F /* Demo iOS */,
 			);
 		};
@@ -601,17 +601,17 @@
 /* Begin PBXTargetDependency section */
 		FE576B291E0C99E5009D4C46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FEE454001E0BE8DB00D8E707 /* IPAPI */;
+			target = FEE454001E0BE8DB00D8E707 /* IPAPI_FORKED */;
 			targetProxy = FE576B281E0C99E5009D4C46 /* PBXContainerItemProxy */;
 		};
 		FEC7F9C124C1870D0041307F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FEE454001E0BE8DB00D8E707 /* IPAPI */;
+			target = FEE454001E0BE8DB00D8E707 /* IPAPI_FORKED */;
 			targetProxy = FEC7F9C024C1870D0041307F /* PBXContainerItemProxy */;
 		};
 		FEDFDB451FA39F7A00607D1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FEE454001E0BE8DB00D8E707 /* IPAPI */;
+			target = FEE454001E0BE8DB00D8E707 /* IPAPI_FORKED */;
 			targetProxy = FEDFDB441FA39F7A00607D1A /* PBXContainerItemProxy */;
 		};
 		FEDFDB4F1FA39FB400607D1A /* PBXTargetDependency */ = {
@@ -644,7 +644,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.arturgrigor.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "IPAPI Tests";
+				PRODUCT_NAME = "IPAPI_FORKED Tests";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests-Bridging-Header.h";
 			};
 			name = Debug;
@@ -655,7 +655,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.arturgrigor.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "IPAPI Tests";
+				PRODUCT_NAME = "IPAPI_FORKED Tests";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests-Bridging-Header.h";
 			};
 			name = Release;
@@ -890,7 +890,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.arturgrigor.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = IPAPI;
+				PRODUCT_NAME = IPAPI_FORKED;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TVOS_DEPLOYMENT_TARGET = 16.0;
@@ -911,7 +911,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.arturgrigor.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = IPAPI;
+				PRODUCT_NAME = IPAPI_FORKED;
 				SKIP_INSTALL = YES;
 				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
@@ -920,7 +920,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE576B2A1E0C99E5009D4C46 /* Build configuration list for PBXNativeTarget "IPAPI iOS Tests" */ = {
+		FE576B2A1E0C99E5009D4C46 /* Build configuration list for PBXNativeTarget "IPAPI_FORKED iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE576B2B1E0C99E5009D4C46 /* Debug */,
@@ -938,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEDFDB461FA39F7A00607D1A /* Build configuration list for PBXNativeTarget "IPAPI macOS Tests" */ = {
+		FEDFDB461FA39F7A00607D1A /* Build configuration list for PBXNativeTarget "IPAPI_FORKED macOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEDFDB471FA39F7A00607D1A /* Debug */,
@@ -947,7 +947,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEE453FB1E0BE8DB00D8E707 /* Build configuration list for PBXProject "IPAPI" */ = {
+		FEE453FB1E0BE8DB00D8E707 /* Build configuration list for PBXProject "IPAPI_FORKED" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEE454071E0BE8DB00D8E707 /* Debug */,
@@ -956,7 +956,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEE454091E0BE8DB00D8E707 /* Build configuration list for PBXNativeTarget "IPAPI" */ = {
+		FEE454091E0BE8DB00D8E707 /* Build configuration list for PBXNativeTarget "IPAPI_FORKED" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEE4540A1E0BE8DB00D8E707 /* Debug */,

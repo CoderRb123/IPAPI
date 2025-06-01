@@ -3,21 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "IPAPI",
+    name: "IPAPI_FORKED",
     platforms: [
-        .iOS(.v8),
+        .iOS(.v16),
         .macOS(.v10_10),
-        .tvOS(.v9),
+        .tvOS(.v16),
         .watchOS(.v2)
     ],
     products: [
-        .library(name: "IPAPI", targets: ["IPAPI"])
+        .library(name: "IPAPI_FORKED", targets: ["IPAPI_FORKED"])
     ],
     targets: [
         .target(
-            name: "IPAPI",
+            name: "IPAPI_FORKED",
             path: "Sources",
-            exclude: ["Sources/Info.plist", "Sources/IPAPI.h", "Sources/Info.plist"]
+            exclude: ["Sources/Info.plist", "Sources/IPAPI_FORKED.h", "Sources/Info.plist"]
         )
     ],
     swiftLanguageVersions: [.v5]
